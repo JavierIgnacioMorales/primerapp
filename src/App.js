@@ -12,7 +12,7 @@ function App() {
           imagen='emma'
           cargo='Fiambrera'
           empresa='Quesitos del Oeste'
-          testimonio='Estoy muy contenta de cortar fiembre que se usara en todas las pizzas de <strong>Tesei</strong> y alrededores.'
+          testimonio={["Estoy muy contenta de cortar fiembre que se usara en todas las pizzas de ", <strong>Tesei y alrededores.</strong>]}
         />
         <Testimonio 
           nombre='Sarah Gomez'
@@ -20,7 +20,7 @@ function App() {
           imagen='sarah'
           cargo='Vendedora de Ropa'
           empresa='Como me queda..!!'
-          testimonio='Esta lleno de gente con mal gusto y me siento muy orgullosa de poder ayudarlos en sus oufit.'
+          testimonio={['Esta lleno de', <strong>gente con mal gusto</strong>, 'y me siento muy orgullosa de poder ayudarlos en sus oufit.']}
         />
         <Testimonio 
           nombre='Chin Chu Lin'
@@ -28,7 +28,7 @@ function App() {
           imagen='shawn'
           cargo='Dueño de Supermercado'
           empresa='Supermercado Luna'
-          testimonio='這些人沒有把手，我不知道如何向員工支付工資，現在我整晚都拔掉冰箱的插頭。.'
+          testimonio={["這些人沒有把手，我不知道如何向員工支付工資",<strong>現在我整晚都拔掉冰箱的插頭。</strong>]}
         />
       </div>
     </div>
